@@ -1,1 +1,1 @@
-www.iis.net leaking CGI environment variables, internal certificate info and IP address included
+www.iis.net leaking CGI environment variables, internal pathnames, certificate info and IP addresses included
