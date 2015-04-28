@@ -1,0 +1,157 @@
+Script started on Thu Apr 23 14:15:13 2015
+
+*%* Type "hlp" for help with customizations
+
+bash-4.3$ openssl s_client -connect www.iis.net.:443
+CONNECTED(00000005)
+depth=1 C = US, ST = Washington, L = Redmond, O = Microsoft Corporation, OU = Microsoft IT, CN = Microsoft IT SSL SHA2
+verify error:num=20:unable to get local issuer certificate
+verify return:0
+---
+Certificate chain
+ 0 s:/CN=*.asp.net
+   i:/C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/OU=Microsoft IT/CN=Microsoft IT SSL SHA2
+ 1 s:/C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/OU=Microsoft IT/CN=Microsoft IT SSL SHA2
+   i:/C=IE/O=Baltimore/OU=CyberTrust/CN=Baltimore CyberTrust Root
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIGKDCCBBCgAwIBAgITWgAA0ZnRTMPz3Ed0UAABAADRmTANBgkqhkiG9w0BAQsF
+ADCBizELMAkGA1UEBhMCVVMxEzARBgNVBAgTCldhc2hpbmd0b24xEDAOBgNVBAcT
+B1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEVMBMGA1UE
+CxMMTWljcm9zb2Z0IElUMR4wHAYDVQQDExVNaWNyb3NvZnQgSVQgU1NMIFNIQTIw
+HhcNMTUwMzIzMTgyNjA5WhcNMTcwMzIyMTgyNjA5WjAUMRIwEAYDVQQDDAkqLmFz
+cC5uZXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDLbRuFvwpbbDut
+4uMvhflFbIl4oiRvDdbuN0nDR1HiRIU2QalS0cDdDvgUchgA9sDRklfxHFWA//rq
+Y2X+gi7THiJxFXvoJ0VfDMZdG9u2YvLE50wjNqS2jLiuY1sH2mQ3zR5AST8ehAqt
+UTCpSf0WmglDiikFrXcOfa2rMBrMclJevKpMFEwa+rIrp+LW6hJ4MzRu3tzaTaNm
+GPR2ww+YMUxmPwEQm1/0Cq71CSWXWLgnRoqsB29LjXv+Ia6D2AFOhkefMI/3sccu
+UxymhjE6mOr4AReyx7g/d5tT0FR6JtRbMlPdQezs6BYszWccr34aUYwVT2TLZ/FB
+pt0IT2kbAgMBAAGjggH5MIIB9TAdBgNVHQ4EFgQU/rwn2ZbqSerG0MF6SxlrBZfF
+3vMwCwYDVR0PBAQDAgSwMB8GA1UdIwQYMBaAFFGvJCac9GgiV4AmKztGYhV7Hsyl
+MH0GA1UdHwR2MHQwcqBwoG6GNmh0dHA6Ly9tc2NybC5taWNyb3NvZnQuY29tL3Br
+aS9tc2NvcnAvY3JsL21zaXR3d3cyLmNybIY0aHR0cDovL2NybC5taWNyb3NvZnQu
+Y29tL3BraS9tc2NvcnAvY3JsL21zaXR3d3cyLmNybDBwBggrBgEFBQcBAQRkMGIw
+PAYIKwYBBQUHMAKGMGh0dHA6Ly93d3cubWljcm9zb2Z0LmNvbS9wa2kvbXNjb3Jw
+L21zaXR3d3cyLmNydDAiBggrBgEFBQcwAYYWaHR0cDovL29jc3AubXNvY3NwLmNv
+bTAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwTgYDVR0gBEcwRTBDBgkr
+BgEEAYI3KgEwNjA0BggrBgEFBQcCARYoaHR0cDovL3d3dy5taWNyb3NvZnQuY29t
+L3BraS9tc2NvcnAvY3BzADAnBgkrBgEEAYI3FQoEGjAYMAoGCCsGAQUFBwMBMAoG
+CCsGAQUFBwMCMB0GA1UdEQQWMBSCCSouYXNwLm5ldIIHYXNwLm5ldDANBgkqhkiG
+9w0BAQsFAAOCAgEAoquc7mSnX3T1EdYxIEL8LQkbl/XSztrYT/0aAHr4teJ1rjNN
+aXwNgcVb6d2CsVgRd0EFtkDDGkUia6AecsiVedrcYlr6K0zINg7E3vet/2she1LU
+gzkrGMeWFLymF2hnAlrGfFBN/TUpybJ94CbI4XAqlyC/7n0pJAQR7XhOxS2bdc6i
+nJN7LXMTEJwt5aXLIUGvez9A54rxJwRuMEgn2MrW9SfmEnshS8lPeF6OZ+TT6ZFU
+XMVzaB8fGLqwfHt8JT4cLbRdpL/KGbwwpnyArpKs7aYEWvTolQBfMWZm4kejyK5C
+fvKohDBzXdP6d/pw5GTmm7deE6qf5DorzudsB5SRC84AdMB28Wx4SkiOOTiwJ0E+
+j2+nUDPyir5eRp57WhtwUrW7ipREoa69zoSJpHhYElWf9eMK1fxErFxCoissA3sn
+DSEqDafsyPRMHZCb+TBfcf0ywq6J6niCH89VBwduabgqsq7kb2N0gb170cr3+TB5
+KAA7FX1WFsym4KsamBWCrWgVgJNStNk8/siH6noNTzdHhT6kN0XHRmpCBXyaL5nS
+hbivz96GwNBpYyDqPS2WtrAeVwxG10eDV+ISDSRvDqukXFgUrsIJTNMG+SVjbR6n
+oHVC/D3anX59lTFi6m878Kt4kZETsCFVWe6lF31+IcmKI3kObaKVfNfbOr8=
+-----END CERTIFICATE-----
+subject=/CN=*.asp.net
+issuer=/C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/OU=Microsoft IT/CN=Microsoft IT SSL SHA2
+---
+No client certificate CA names sent
+---
+SSL handshake has read 3192 bytes and written 663 bytes
+---
+New, TLSv1/SSLv3, Cipher is AES128-SHA256
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : AES128-SHA256
+    Session-ID: 640800007577BCBE718434EAC26374DE54E88046A833827A1542D542A8BAEFB9    Session-ID-ctx:
+    Master-Key: 0C3611440047AEBF849807937533DE07B87E42D06D8F316168FB4E96B9B3BF138ECFF245151F6F666956BEDCA5AC7CDF
+    Key-Arg   : None
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    Start Time: 1429798532
+    Timeout   : 300 (sec)
+    Verify return code: 20 (unable to get local issuer certificate)
+---
+GET / HTTP/1.0
+Host: 127.255.255.255
+User-Agent: MSIE
+Connection: close
+
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Frame-Options: SAMEORIGIN
+Date: Thu, 23 Apr 2015 14:16:00 GMT
+Connection: close
+Content-Length: 3218
+
+<html>
+<head>
+<style>
+body {
+        font-family:Sans-serif;
+        font-size:1em;
+}
+</style
+</head>
+<body>
+<table border=1>
+<tr>
+<td colspan=2><b>Server Info</b></td>
+</tr>
+<tr>
+<td>Time</td>
+<td>4/23/2015 10:16:01 AM</td>
+</tr>
+<tr>
+<td>ServerName</td>
+<td>ASPNETARR04</td>
+</tr>
+<tr>
+<td>OS</td>
+<td>Microsoft Windows NT 6.2.9200.0</td>
+</tr>
+<tr>
+<td>ASP.NET Version</td>
+<td>4.0.30319.18449</td>
+</tr>
+<tr>
+<td>ASP.NET User</td>
+<td>DefaultAppPool</td>
+</tr>
+<tr>
+<td>Processor Count</td>
+<td>1</td>
+</tr>
+<tr>
+<td>AppPool Memory</td>
+<td>66134016</td>
+</tr>
+<tr>
+<td colspan=2><b>HTTP Headers</b></td>
+</tr>
+<tr>
+<td>Server Variable</td>
+<td>Value</td>
+</tr>
+<tr><td>ALL_HTTP</td><td>HTTP_CONTENT_LENGTH:0
+HTTP_HOST:127.255.255.255
+HTTP_USER_AGENT:MSIE
+</td></tr><tr><td>ALL_RAW</td><td>Content-Length: 0
+Host: 127.255.255.255
+User-Agent: MSIE
+</td></tr><tr><td>APPL_MD_PATH</td><td>/LM/W3SVC/1/ROOT</td></tr><tr><td>APPL_PHYSICAL_PATH</td><td>C:\Domains\OWServerMaster\</td></tr><tr><td>AUTH_TYPE</td><td></td></tr><tr><td>AUTH_USER</td><td></td></tr><tr><td>AUTH_PASSWORD</td><td></td></tr><tr><td>LOGON_USER</td><td></td></tr><tr><td>REMOTE_USER</td><td></td></tr><tr><td>CERT_COOKIE</td><td></td></tr><tr><td>CERT_FLAGS</td><td></td></tr><tr><td>CERT_ISSUER</td><td></td></tr><tr><td>CERT_KEYSIZE</td><td>128</td></tr><tr><td>CERT_SECRETKEYSIZE</td><td>2048</td></tr><tr><td>CERT_SERIALNUMBER</td><td></td></tr><tr><td>CERT_SERVER_ISSUER</td><td>C=US, S=Washington, L=Redmond, O=Microsoft Corporation, OU=Microsoft IT, CN=Microsoft IT SSL SHA2</td></tr><tr><td>CERT_SERVER_SUBJECT</td><td>CN=*.asp.net</td></tr><tr><td>CERT_SUBJECT</td><td></td></tr><tr><td>CONTENT_LENGTH</td><td>0</td></tr><tr><td>CONTENT_TYPE</td><td></td></tr><tr><td>GATEWAY_INTERFACE</td><td>CGI/1.1</td></tr><tr><td>HTTPS</td><td>on</td></tr><tr><td>HTTPS_KEYSIZE</td><td>128</td></tr><tr><td>HTTPS_SECRETKEYSIZE</td><td>2048</td></tr><tr><td>HTTPS_SERVER_ISSUER</td><td>C=US, S=Washington, L=Redmond, O=Microsoft Corporation, OU=Microsoft IT, CN=Microsoft IT SSL SHA2</td></tr><tr><td>HTTPS_SERVER_SUBJECT</td><td>CN=*.asp.net</td></tr><tr><td>INSTANCE_ID</td><td>1</td></tr><tr><td>INSTANCE_META_PATH</td><td>/LM/W3SVC/1</td></tr><tr><td>LOCAL_ADDR</td><td>172.16.100.8</td></tr><tr><td>PATH_INFO</td><td>/default.aspx</td></tr><tr><td>PATH_TRANSLATED</td><td>C:\Domains\OWServerMaster\default.aspx</td></tr><tr><td>QUERY_STRING</td><td></td></tr><tr><td>REMOTE_ADDR</td><td>192.94.73.9</td></tr><tr><td>REMOTE_HOST</td><td>192.94.73.9</td></tr><tr><td>REMOTE_PORT</td><td>59196</td></tr><tr><td>REQUEST_METHOD</td><td>GET</td></tr><tr><td>SCRIPT_NAME</td><td>/default.aspx</td></tr><tr><td>SERVER_NAME</td><td>127.255.255.255</td></tr><tr><td>SERVER_PORT</td><td>443</td></tr><tr><td>SERVER_PORT_SECURE</td><td>1</td></tr><tr><td>SERVER_PROTOCOL</td><td>HTTP/1.0</td></tr><tr><td>SERVER_SOFTWARE</td><td>Microsoft-IIS/8.0</td></tr><tr><td>URL</td><td>/default.aspx</td></tr><tr><td>HTTP_CONTENT_LENGTH</td><td>0</td></tr><tr><td>HTTP_HOST</td><td>127.255.255.255</td></tr><tr><td>HTTP_USER_AGENT</td><td>MSIE</td></tr>
+</table>
+<br />
+Server test result: SUCCESS<br />
+</body>
+</html>read:errno=0
+bash-4.3$ exit
+exit
+
+Script done on Thu Apr 23 14:15:59 2015
